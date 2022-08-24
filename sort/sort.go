@@ -1,8 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
+
 
 func bubbleSort(a []int) {
 	for i := 1; i < len(a); i++ {
